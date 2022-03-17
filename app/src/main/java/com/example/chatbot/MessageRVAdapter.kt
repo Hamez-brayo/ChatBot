@@ -27,7 +27,7 @@ class MessageRVAdapter     // constructor class.
                 return BotViewHolder(view)
             }
         }
-        return null
+        return RecyclerView.ViewHolder
     }
 
 
