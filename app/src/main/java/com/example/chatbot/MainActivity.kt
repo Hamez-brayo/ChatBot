@@ -35,10 +35,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // on below line we are initializing all our views.
-        //chatsRV = findViewById(R.id.idRVChats)
-       // sendMsgIB = findViewById(R.id.idIBSend)
-       // userMsgEdt =findViewById(R.id.idEdtMessage)
+//         on below line we are initializing all our views.
+        chatsRV = findViewById(R.id.idRVChats)
+        sendMsgIB = findViewById(R.id.idIBSend)
+        userMsgEdt =findViewById(R.id.idEdtMessage)
 
         // below line is to initialize our request queue.
         mRequestQueue = Volley.newRequestQueue(this@MainActivity)
