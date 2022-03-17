@@ -13,7 +13,7 @@ class MessageRVAdapter     // constructor class.
     private val messageModalArrayList: ArrayList<MessageModal>, private val context: Context
 ) :
     RecyclerView.Adapter<RecyclerView.ViewHolder?>() {
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder? {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val view: View
         when (viewType) {
             0 -> {
@@ -27,7 +27,7 @@ class MessageRVAdapter     // constructor class.
                 return BotViewHolder(view)
             }
         }
-        return null
+        return null!!
     }
 
 

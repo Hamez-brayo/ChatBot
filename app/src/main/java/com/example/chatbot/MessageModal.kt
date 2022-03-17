@@ -1,6 +1,6 @@
 package com.example.chatbot
 
-class MessageModal {
+class MessageModal(userMsg: String, USER_KEY: String) {
     // string to store our message and sender
     private var message: String? = null
     private var sender: String? = null
